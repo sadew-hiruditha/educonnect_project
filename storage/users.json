@@ -1,0 +1,37 @@
+[
+    {
+        "id": "6870fadddaa81",
+        "name": "Sadew Hiruditha",
+        "email": "sadewhiruditha1@gmail.com",
+        "password": "$2y$10$8dpuE0fvAZ7oa8nCbyS5Ku6aQnWFl9ZxXsIq8NXZ3kmv49loykVny",
+        "created_at": "2025-07-11 13:51:58"
+    },
+    {
+        "id": "6870ff372807b",
+        "name": "sadew",
+        "email": "iit210281@std.uwu.ac.lk",
+        "password": "$2y$10$5.10SQT5CvRsOHn3sKw\/R.yKs.KawtSTswAtzxi7znYnW5rViW80O",
+        "created_at": "2025-07-11 14:10:31"
+    },
+    {
+        "id": "68721e91260e2",
+        "name": "Test Name",
+        "email": "test@gmail.com",
+        "password": "$2y$10$eYhfCFbNyoncmrqrJzqU5O5RcVgfw1mc3ATNJgZXKHdWhKWoDMKwS",
+        "created_at": "2025-07-12 10:36:33"
+    },
+    {
+        "id": "687cc9fa78133",
+        "name": "Lakshitha Madhushanka",
+        "email": "sadewhiruditha11@gmail.com",
+        "password": "$2y$10$ZHlfN7zaXV98KAIQc9W7q.nCBlOS87kKGw3\/BlmkM3a2mR0QzhCFy",
+        "created_at": "2025-07-20 12:50:34"
+    },
+    {
+        "id": "68809907356e4",
+        "name": "Test name",
+        "email": "test1@gmail.com",
+        "password": "$2y$10$3YZHolUhssK5WdIF3bwqI.6pv6wuCyF5XKS1LYEFppxtiNNROv4da",
+        "created_at": "2025-07-23 10:10:47"
+    }
+]

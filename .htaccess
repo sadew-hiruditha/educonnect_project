@@ -1,0 +1,17 @@
+# Enable URL rewriting
+RewriteEngine On
+RewriteBase /educonnect_project/
+
+# Clean URLs: send non-existing files/folders to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Block direct access to JSON files
+<FilesMatch "\.json$">
+    Require all denied
+</FilesMatch>
+
+# Block access to includes/ and storage/ folders
+RewriteRule ^includes/ - [F,L]
+RewriteRule ^storage/ - [F,L]

@@ -1,0 +1,42 @@
+/* EduConnect - Main CSS Import File */
+/* Import Google Fonts and Material Icons */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Import modular CSS files */
+@import 'variables.css';    /* CSS Variables & Theme Colors */
+@import 'base.css';        /* Reset, Typography & Base Styles */
+@import 'layout.css';      /* Layout, Containers & Grid Systems */
+@import 'navigation.css';  /* Header & Navigation Styles */
+@import 'components.css';  /* Buttons, Cards, Alerts, Modals */
+@import 'forms.css';       /* Form Elements & Input Styles */
+@import 'pages.css';       /* Page-Specific Styles */
+@import 'responsive.css';  /* Media Queries & Responsive Design */
+
+/*
+ * EduConnect CSS Architecture
+ * 
+ * 📁 CSS File Structure:
+ * ├── main.css         ← This file (imports all others)
+ * ├── variables.css    ← CSS custom properties & themes
+ * ├── base.css         ← Reset, typography, accessibility
+ * ├── layout.css       ← Containers, grids, layout utilities
+ * ├── navigation.css   ← Header, navbar, menu styles
+ * ├── components.css   ← Reusable UI components
+ * ├── forms.css        ← Form elements & validation
+ * ├── pages.css        ← Page-specific styling
+ * └── responsive.css   ← Media queries & mobile styles
+ * 
+ * 🎨 Benefits:
+ * • Modular architecture for easier maintenance
+ * • Better organization and developer experience
+ * • Easier debugging and feature development
+ * • Improved collaboration between team members
+ * • Reduced conflicts in version control
+ * 
+ * 🛠️ Development Tips:
+ * • Edit specific files for targeted changes
+ * • Use variables.css for theme customization
+ * • Add new components to components.css
+ * • Keep responsive styles in responsive.css
+ */
